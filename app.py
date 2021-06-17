@@ -79,7 +79,7 @@ def precipitation():
         r[result[0]] = result[1]
         precipitation.append(r)
 
-    return jsonify(precipitation )
+    return jsonify(precipitation)
 
 #################################################################
 
@@ -161,7 +161,7 @@ def start(start):
         start_list.append(r)
 
     # jsonify the result
-    return jsonify(t_list)
+    return jsonify(start_list)
 
 ##########################################################
 #run the app
